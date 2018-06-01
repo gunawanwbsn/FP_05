@@ -1,8 +1,15 @@
 .head1 {
 	width:100%;
 	height: 400px;
-	background-image: url(assets/img/waduksermo.jpg);
-	/*background-size: cover;*/
+	background-image: url(../img/kalibiru.jpg);
+	/*background-color: grey;*/
+	background-size: cover;
+	color: white;
+}
+.head1 h1 {
+	padding-top: 18%;
+	padding-left: 2%;
+	 
 }
 .box {
 		width: 410px;

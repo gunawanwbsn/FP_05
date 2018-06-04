@@ -38,3 +38,27 @@
 		.dropdown:hover .dropbtn {
 		    background-color: #ddd;
 		}
+		.col-lg-3{
+			text-align: center;
+		}
+		.waduk:hover{
+			background-image: linear-gradient(180deg, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 20%);
+		}
+		.item-1{
+			background-image: url(asset\img\item-1.jpg);
+		}
+		.item-2{
+			background-image: url(asset\img\item-2.jpg));
+		}
+		.item-3{
+			background-image: url(asset\img\item-3.jpg));
+		}
+		.item-4{
+			background-image: url(asset\img\item-4.jpg));
+		}
+		.item-5{
+			background-image: url(asset\img\item-5.jpg));
+		}
+		.item-6{
+			background-image: url(asset\img\item-6.jpg));
+		}

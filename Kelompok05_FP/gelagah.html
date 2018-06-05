@@ -8,6 +8,8 @@
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
 	<script type="assets/js/jquery-3.3.1.min"></script>
+	<script type="text/javascript" src='assets/js/angular.min.js'></script>
+	<script type="text/javascript" src='assets/js/app.js'></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/hf.css">
 	
 </head>
@@ -97,15 +99,37 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               });
         </script> 
     <h2>Review</h2>
-	<h3>comment</h3>
-  	<div class="form-group">
-    <label for="exampleFormControlTextarea1"></label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 300"></textarea>
-    <br>
-    <button type="button" class="btn btn-success btn-lg" style="" >Send</button>
-  </div>
+	<body ng-app='myApp'>
+
+	<div ng-controller='MyController'>
+		<ul class='list-group'>
+		<li class='list-group-item' ng-repeat='database in databases'>
+			<div>
+				<p>Name: {{database.name}}</p>
+				<p>Your commant: {{database.comment}}</p>
+				
+				<button class="btn" type="button" ng-click="remove(database)">Hapus</button>
+			</div>
+		</li>
+		</ul>
+
+		<form name='databaseForm' ng-submit='addDatabase()'>
+			<p>{{form.name}}</p>
+			<p>{{form.comment}}</p>
+			
+
+			<label>Name</label><br/>
+			<input ng-model='form.name' type='text'><br/>
+			<label  for="exampleFormControlTextarea1">comment</label><br/>
+			<textarea ng-model='form.comment' type='text' class="form-control" id="exampleFormControlTextarea1" rows="3" style="width:400px"></textarea>
+			
+			<input id='submit' type='submit' value='Send'/>
+
+		</form>
+
+	</div>
 </div>	
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #808080; margin: 900px 0 0 0;;">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #808080; margin: 10px 0 0 0;;">
 
 	  <a class="navbar-brand" href="#">
 	    <img src="assets/img/logo.png" width="90" height="90" alt="">

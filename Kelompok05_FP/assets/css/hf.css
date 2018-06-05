@@ -95,3 +95,21 @@
 			height: 250px;
 			/*background-image: url(asset\img\item-6.jpg));*/
 		}
+
+		h2 {
+			margin-left: 14px;
+		}
+
+		form {
+			margin-left: 14px;
+		}
+
+		label {
+			margin-top: 4px;
+		}
+
+		#submit {
+			margin-top: 13px;
+		}
+
+	

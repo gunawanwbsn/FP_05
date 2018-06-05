@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="assets/js/jquery-3.3.1.min"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/hf.css">
+	
+</head>
+<body>
+
+
+	<div class="container-fluid">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">
+	  	 <img src="assets/img/logo.png" width="30" height="30" alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end;">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Beranda</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          News
+	        </a>
+	        <div class="dropdown-menu dropdown-content active" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item " href="article.html">Article </a><span class="sr-only">(current)</span></a>
+	          <a class="dropdown-item active" href="trip.html">Trip</a>
+	          <a class="dropdown-item" href="event.html">Event</a>
+	        </div>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Destination
+	        </a>
+	        <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Beach</a>
+	          <a class="dropdown-item" href="#">Hills</a>
+	          <a class="dropdown-item" href="#">Reservoir</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact.html">Contact</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " href="about.html">About <span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+<h1 style="text-align: center;">Goa Kebon Di Krembangan Kulon Progo Semakin Populer</h1>
+<div class="container">
+<center><img src="assets/img/Goa-Kebon2.jpg" -width="1000" -height="700" style="border-radius: 10px"></center>
+<br><p style="align-content: justify; text-indent: 0.5in">Sebuah wisata yang sangat unik sekali karena tempat wisata ini tersembunyi di pekarangan seorang warga di Dusun Krembangan Kecamatan Panjatan, Kulon Progo Yogyakarta.
+Keberadaan Tempat wisata ini yang di anggak tersembunyi karena berlokasi di kebon atau pekarangan milik warga. Objek wisata ini belum banyak di kenal dan dinamakan Gua Kebon.<br> <p style="text-indent: 0.5in"> Pemilik pekarangan yang bernama Komarul Hadi Mengatakan "Gua itu sudah sejak laa dan terbentuk secara alami karena kandungan kapur yang di bawa oleh air". Sejak kebunnya di bersihakna dan beberapa tumbuhan yang menghalangi di tebang karena untuk membuka jalur off motor tril penduduk terutama para anak anak muda semakin banyak yang berkunjung.
+
+"Gua ini sudah lama dan sering juga yang bermain di tempat ini", ujar Komarul.
+
+Untuk menuju ke tempat wisata ini jika di tempuh dari Joga dengan waktu kurang lebih 1 jam dan untuk menuju ke tempat ini sudah mudah juga di akses karena beberpa jalan sudah di perbaiki.
+
+"Tempat ini cuman untuk bermain anak anak biasanya sampai sore dan juga habis sekolah mereka bermain ke sini. Tetapi sekarang sudah banyak juga dari luar daerh ini yang berkunjung kesini ada juga yang berkemah". Kata Komarul.<br></p><p style="text-indent: 0.5in"> Kedalaman gua ini sekitar 7 meter. Keindahan gua ini terlihat pada saat air terjun yang mengalir dengan deras sehingga terlihat seperti membentuk tirai pada mulut gua. Pada tebing gua ini memiliki bentuk seperti payung yang ketinggianya mencapai 10 meter lebih.
+
+Arbain Ali Muchtar, Pengunjung asal kecamatan Lendah ini mengaku baru baru tau keberadaan gua ini dari temanya. Karena penasaran akhirnya mereka kemari. Ternyata benar emang gua ini bagus dan suasana yang begitu sejuk dan indah.
+
+Satu lagi jika anda berkunjung ke gua ini jangan lupa buang sampah pada tempatnya atau bawa tempat plastik sendiri agar tempat wisata ini tetap bersih dan nyaman saat di kunjungi para wisatawan dari lokal dan manca negara.</p>
+
+
+sumber :http://yu2uf.blogspot.com/2015/07/Gua-Kebon-Di-Krembangan-Kulon-Progo-Semakin-Populer.html 
+
+</p>
+
+
+ <div id="map" style="width: 800px; height: 300px;"></div> 
+ 
+        <script type="text/javascript">
+              
+//              menentukan koordinat titik tengah peta
+              var myLatlng = new google.maps.LatLng(-7.8870828,110.1866704,15);
+ 
+//              pengaturan zoom dan titik tengah peta
+              var myOptions = {
+                  zoom: 13,
+                  center: myLatlng
+              };
+              
+//              menampilkan output pada element
+              var map = new google.maps.Map(document.getElementById("map"), myOptions);
+              
+//              menambahkan marker
+              var marker = new google.maps.Marker({
+                   position: myLatlng,
+                   map: map,
+                   title:"goa kebon"
+              });
+        </script> 
+    <h2>Review</h2>
+	<h3>comment</h3>
+  	<div class="form-group">
+    <label for="exampleFormControlTextarea1"></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 300"></textarea>
+    <br>
+    <button type="button" class="btn btn-success btn-lg" style="" >Send</button>
+  </div>
+</div>	
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #808080; margin: 10px 0 0 0;;">
+
+	  <a class="navbar-brand" href="#">
+	    <img src="assets/img/logo.png" width="90" height="90" alt="">
+	  </a>
+
+	  <div class="collapse navbar-collapse " id="navbarNav" style="justify-content: flex-end;">
+	    <ul class="navbar-nav " style="padding-top:30px; ">
+	      <li class="nav-item" style="text-align: center;">
+	      	<img style="width: 50px; height: 50px; text-align: center;" src="assets\img\ig-logo.png">
+	        <a class="nav-link" href="#"><p class="foot">Instagram</p></a>
+	      </li>
+	      <li class="nav-item" style="text-align: center;">
+	      	<img style="width: 50px; height: 50px; text-align: center;" src="assets\img\fb-logo.png">
+	        <a class="nav-link" href="#"><p class="foot">Facebook</p></a>
+	      </li>
+	      <li class="nav-item" style="text-align: center;">
+	      	<img style="width: 50px; height: 50px; text-align: center;" src="assets\img\wa-logo.png">
+	        <a class="nav-link" href="https://api.whatsapp.com/send?phone=082284443908&text=Halo%20Admin%20Saya%20Mau%20bertanya"><p class="foot">WhatsApp</p></a>
+	      </li>
+	    </ul>
+	  </div>
+	  
+	</nav>
+
+</body>
+</html>
+

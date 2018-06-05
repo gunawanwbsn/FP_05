@@ -12,27 +12,32 @@
 	 
 }
 .box {
-		width: 410px;
-		height: 450px;
+		width: 300px;
+		height: 360px;
 		background-color: white;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		margin-left: 30px;
-		border-radius: 3px;
+		border-radius: 10px;
 }
 .inbox1 {
-		width: 410px;
-		height: 270px;
-		background-color: #808080;		
+		width: 300px;
+		height: 200px;
+		background-color: #808080;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;		
 }
 .inbox2 {
-		width: 410px;
-		height: 180px;
+		width: 300px;
+		height: 160px;
 		background-color: #CCCCCC;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
 }
 .cont1 {
 	justify-content: center;
-	width: 1500px;
+	width: 1100px;
+	border-radius: 10px;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gunung Menoreh</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="assets/js/jquery-3.3.1.min"></script>
+	<script type="text/javascript" src='assets/js/angular.min.js'></script>
+	<script type="text/javascript" src='assets/js/app.js'></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/hf.css">
+	<link rel="shortcut icon" href="assets/img/logo.png" />
+</head>
+<body>
+
+
+	<div class="container-fluid">
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="index.html">
+	  	 <img src="assets/img/logo.png" width="30" height="30" alt="">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: flex-end;">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Beranda</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropbtn active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          News
+	        </a>
+	        <div class="dropdown-menu dropdown-content active" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="article.html">Article </a><span class="sr-only">(current)</span></a>
+	          <a class="dropdown-item" href="trip.html">Trip</a>
+	          <a class="dropdown-item" href="event.html">Event</a>
+	        </div>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropbtn" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Destination
+	        </a>
+	        <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="beach.html">Beach</a>
+	          <a class="dropdown-item" href="html">Hills</a>
+	          <a class="dropdown-item" href="hill.html">Reservoir</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contact.html">Contact</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " href="about.html">About <span class="sr-only">(current)</span></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+<h1 style="text-align: center;">Dua Destinasi Wisata Baru di Kulonprogo Janjikan Pesona Alam Pegunungan Menoreh</h1>
+<div class="container">
+<center><img src="assets/img/ayunan-langit-watu-jaran.jpg" -width="1000" -height="700" style="border-radius: 10px"></center>
+<p style="align-content: center;"><br><br>TRIBUNNEWS.COM, KULONPROGO - Kecamatan Girimulyo kini memiliki dua rintisan destinasi wisata baru yakni Puncak Gunung Gilingan dan Watu Jendhul.
+
+Pesona alam perbukitan Menoreh dan spot foto menjadi andalan keduanya. 
+
+Puncak Gunung Gilingan terdapat di Pedukuhan Patihombo, Desa Purwosari sedangkan Watu Jendhul berada di Pedukuhan Bulu, Desa Giripurwo. 
+
+
+Kedua tempat tersebut diresmikan keberadaannya sebagai rintisan wisata oleh Wakil Bupati Kulonprogo, Sutedjo pada kegiatan BBGRM ke-XV dan Hari Kesatuan Gerak PKK ke-46 tahun 2018 di Kecamatan Girimulyo, Kamis (12/4/2018). <br><br>
+
+Kepala Desa Purwosari, Purwito, Jumat (13/4/2018) mengatakan bahwa Rintisan Gunung Gilingan satu di antara petilasan Sri Sultan Hamengku Buwono IX.
+
+Di tempat tersebut saat ini masih ada bekas persinggahannya. Sedangkan Rintisan Watu Jendhul merupakan tempat yang indah untuk dikunjungi karena banyak tempat berfoto.
+
+"Pengunjung dapat melihat hijaunya pemandangan alam dan perbukitan," katanya.
+
+
+
+
+Pihaknya berharap, masyarakat tidak hanya menebang pohon melainkan juga pandai menanamnya kembali.</p><br>
+<img src="assets/img/watu-tekek.jpg" -width="1000" -height="700" style="border-radius: 10px; float:left;">
+<p style="text-indent: 0.5in"> Wakil Bupati Kulonprogo, Sutedjo, mengapresiasi warga setempat karena hingga saat ini masih bersemangat memelihara alam dan memanfaatkannya untuk obyek wisata.<br><br>
+Pada saatnya nanti, ia percaya bahwa hal itu akan membawa kesejahteraan bagi masyarakat serta dinikmati anak cucu."Masyarakat hendaknya juga pandai mengelola lingkungan dan memberdayakan potensi lokal. Termasuk, pengelolaan objek wisata dan priduk lokal dalam mewujudkan kemandirian ekonomi di Kulonprogo," jelasnya.(TRIBUNJOGJA.COM)
+<br><Br></p>
+
+
+
+ <div id="map" style="width: 800px; height: 300px;"></div> 
+ 
+        <script type="text/javascript">
+              
+//              menentukan koordinat titik tengah peta
+              var myLatlng = new google.maps.LatLng(-7.7245241,110.1406542,17);
+ 
+//              pengaturan zoom dan titik tengah peta
+              var myOptions = {
+                  zoom: 13,
+                  center: myLatlng
+              };
+              
+//              menampilkan output pada element
+              var map = new google.maps.Map(document.getElementById("map"), myOptions);
+              
+//              menambahkan marker
+              var marker = new google.maps.Marker({
+                   position: myLatlng,
+                   map: map,
+                   title:"Puncak Gunung Gilingan"
+              });
+        </script> 
+    <h2>Review</h2>
+	<body ng-app='myApp'>
+
+	<div ng-controller='MyController'>
+		<ul class='list-group'>
+		<li class='list-group-item' ng-repeat='database in databases'>
+			<div>
+				<p>Name: {{database.name}}</p>
+				<p>Your commant: {{database.comment}}</p>
+				
+				<button class="btn" type="button" ng-click="remove(database)">Hapus</button>
+			</div>
+		</li>
+		</ul>
+
+		<form name='databaseForm' ng-submit='addDatabase()'>
+			<p>{{form.name}}</p>
+			<p>{{form.comment}}</p>
+			
+
+			<label>Name</label><br/>
+			<input ng-model='form.name' type='text'><br/>
+			<label  for="exampleFormControlTextarea1">comment</label><br/>
+			<textarea ng-model='form.comment' type='text' class="form-control" id="exampleFormControlTextarea1" rows="3" style="width:400px"></textarea>
+			
+			<input id='submit' type='submit' value='Send'/>
+
+		</form>
+
+	</div>
+</div>	
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #808080; margin: 10px 0 0 0;;">
+
+	  <a class="navbar-brand" href="#">
+	    <img src="assets/img/logo.png" width="90" height="90" alt="">
+	  </a>
+
+	  <div class="collapse navbar-collapse " id="navbarNav" style="justify-content: flex-end;">
+	    <ul class="navbar-nav " style="padding-top:30px; ">
+	      <li class="nav-item" style="text-align: center;">
+	      	<img style="width: 50px; height: 50px; text-align: center;" src="assets\img\ig-logo.png">
+	        <a class="nav-link" href="#"><p class="foot">Instagram</p></a>
+	      </li>
+	      <li class="nav-item" style="text-align: center;">
+	      	<img style="width: 50px; height: 50px; text-align: center;" src="assets\img\fb-logo.png">
+	        <a class="nav-link" href="#"><p class="foot">Facebook</p></a>
+	      </li>
+	      <li class="nav-item" style="text-align: center;"><a class="nav-link" href="https://api.whatsapp.com/send?phone=082284443908&text=Halo%20Admin%20Saya%20Mau%20bertanya">
+	      	<img style="width: 50px; height: 50px; text-align: center;" src="assets\img\wa-logo.png">
+	        <p class="foot">WhatsApp</p></a>
+	      </li>
+	    </ul>
+	  </div>
+	  
+	</nav>
+
+</body>
+</html>
+
